@@ -6,17 +6,17 @@ print("""
 ·▀▀▀▀  ▀  ▀ ▀▀ █▪▀▀▀▀▀•     ▀▀ █▪ ▀  ▀ ▀▀  █▪▀▀▀ ▀▀▀     ·▀▀▀▀  ▀▀▀ ▀▀ █▪ ▀▀▀ .▀  ▀ ▀  ▀  ▀▀▀  ▀█▄▀▪.▀  ▀
 """)
 
-user_name = input("Please enter your name : ")
+print(f"\nWelcome to The Band Name Generator."
+      "We'll help you come up with a fantastic name for your music band.")
 
-print(f"\nWelcome to The Band Name Generator, {user_name}.\nWe see you're here because you're having difficulty"
-      " selecting a name for your music band.\n\nWell, worry no more! The Band Name Generator is here to"
-      " help you.")
+user_name = input("\nWhat's your name : ")
 
-city_name = input("\nWhat's the name of the city you grew up in? : ")
+city_name = input(f"\nHi {user_name}! What's the name of the city you grew up in? : ")
 
-pet_name = input("\nWhat's the name of your pet you have or had? : ")
+pet_name = input("\nInteresting! What's the name of your pet you have or had? : ")
 
 print(f"""
 ----------------------------------------------------
-Your band name could be: {city_name} {pet_name}
+Great! Your band name could be: {city_name} {pet_name}
+               🎸🥁 Rock On! 🎸🥁
 ----------------------------------------------------""")
